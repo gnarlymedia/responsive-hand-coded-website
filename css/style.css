@@ -1,0 +1,106 @@
+/**** www.gnarlymedia.com.au ****/
+/**** Website by Simon Hudson ****/
+
+/**** twitter bootstrap styles ***/
+
+.box
+{
+	float: left;
+	margin: 5px 5px;
+	/*width: 270px;*/
+}
+.box.text
+{
+	/*margin: 10px 5px;*/
+	margin: 5px 0;
+	/*width: 260px;*/
+}
+#facebook-container-home,#twitter-container-home
+{
+	/*min-width: 260px;*/
+}
+.shadow.text.box
+{
+  	-webkit-box-shadow: 2px 3px 3px #bbb;
+	-moz-box-shadow: 2px 3px 3px #bbb;
+	box-shadow: 1px 2px 3px #bbb;
+}
+.shadow.box
+{
+  	-webkit-box-shadow: 2px 3px 3px #bbb;
+	-moz-box-shadow: 2px 3px 3px #bbb;
+	box-shadow: 4px 3px 3px #bbb;
+}
+.text
+{
+	margin-left: 0;
+	margin-right: 0;
+	padding: 10px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	border: 1px solid #ddd;
+	/*width: 255px;*/
+}
+#form
+{
+	padding:25px 20px 5px 20px;
+	background:#FFF;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	border: 1px solid #ddd;
+	position:relative;
+	width:240px;
+}
+#wall
+{
+	/*width:100%;*/
+	margin: 0 auto;
+	float: none;
+}
+.container-fluid
+{
+	max-width:1000px;
+	margin: 0 auto;
+	float: none;
+}
+#facebook-container-home
+{
+	display: inline-block;
+	position:relative;
+	/*max-width: 400px;*/
+	height:60px;
+}
+#twitter-container-home
+{
+	/*max-width:400px;*/
+}
+
+/**** Transitions ****/
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
